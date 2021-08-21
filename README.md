@@ -1,4 +1,4 @@
-# Ezaz-Restaurant---Website
+# Ezaz Restaurant Website
 ## Assalomalekum this is the website where I worked at Ezaz restaurant. Developed within Django
 # Home page 
 ![home](https://user-images.githubusercontent.com/76002783/130312358-543e5b0d-a1d5-4842-8ae7-3133d6074788.JPG)
