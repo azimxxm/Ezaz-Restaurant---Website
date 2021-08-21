@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!--========== Font Awesome ICONS ==========-->
+    <link href='https://use.fontawesome.com/releases/v5.8.2/css/all.css' rel='stylesheet'>
+
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    <title>Website Ezaz Restaurant</title>
+</head>
+
+<body>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+    {% include 'website/navbar.html' %}
+
+    <main class="l-main">
+
+        {% include 'website/home.html' %}
+        {% include 'website/about.html' %}
+        {% include 'website/srvice.html' %}
+        {% include 'website/menu.html' %}
+        {% include 'website/app.html' %}
+        {% include 'website/contact.html' %}
+        {% include 'website/footer.html' %}
+
+
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
